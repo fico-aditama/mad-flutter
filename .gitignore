@@ -2,6 +2,7 @@
 
 # Miscellaneous
 *.class
+*.sh
 *.log
 *.pyc
 *.swp
