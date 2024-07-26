@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mad_flutter/detail_screen.dart';
+import 'package:mad_flutter/view/detail_screen.dart';
 import 'package:mad_flutter/model/tourism_place.dart';
 
 class MainScreen extends StatelessWidget {
