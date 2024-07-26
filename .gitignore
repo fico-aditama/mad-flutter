@@ -43,3 +43,6 @@ app.*.map.json
 # Exclude android and ios folders
 /android/
 /ios/
+/linux/
+/windows/
+/macos/
