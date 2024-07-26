@@ -1,4 +1,19 @@
-# Folder and files to ignore for Flutter projects
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Exclude android and ios folders (keep them if you need to commit specific files)
+# /android/
+# /ios/
+# /linux/
+# /windows/
+# /macos/
 
 # Miscellaneous
 *.class
@@ -19,16 +34,6 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
 # Symbolication related
 app.*.symbols
 
@@ -39,10 +44,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# Exclude android and ios folders
-/android/
-/ios/
-/linux/
-/windows/
-/macos/
